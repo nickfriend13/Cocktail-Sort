@@ -2,11 +2,11 @@
 
 class Program
 {
-    static void Main(int[] array)
+    static void Main()
     {
         Console.WriteLine("Hello, World!");
         int[] unsorted = { 204, 12, 112, 143, 234, 5433, 234, 234, 543, 322, 41, 13, 46, 76, 34 };
-
+        int[] array = new int[unsorted.Length];
         bool swapped = true;
         int start = 0;
         int end = unsorted.Length - 1;
