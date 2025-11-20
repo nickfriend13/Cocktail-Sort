@@ -51,7 +51,7 @@ class Program
         Console.WriteLine("Sorted array:");
         foreach (int num in unsorted)
         {
-            Console.Write(num + ", ");
+            Console.Write(num + " ");
         }
     }
 }
