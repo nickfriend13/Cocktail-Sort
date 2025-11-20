@@ -2,7 +2,7 @@
 
 class Program
 {
-    static void Main()
+    static void Main(int[] array)
     {
         Console.WriteLine("Hello, World!");
         int[] unsorted = { 204, 12, 112, 143, 234, 5433, 234, 234, 543, 322, 41, 13, 46, 76, 34 };
@@ -47,9 +47,10 @@ class Program
 
             start++;
         }
+        array = unsorted;
 
         Console.WriteLine("Sorted array:");
-        foreach (int num in unsorted)
+        foreach (int num in array)
         {
             Console.Write(num + " ");
         }
